@@ -1,0 +1,361 @@
+footer {  
+  position:static;
+  width: 100%;
+  bottom:0;
+  padding: 1em;
+  padding-bottom: 0px;
+
+
+}
+.container {
+  min-height: -200vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-image{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 1px;
+}
+
+.image {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+container {
+  width: 100%;
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+}
+.vertical {
+  border-left: 6px solid black;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+}
+.contain {
+  width: 1000px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+} 
+body {
+  background-color: #2e2e2e;
+}
+
+.container {
+  padding-top: 62.5%; /* 8:5 Aspect Ratio */
+}
+
+.container {
+  position: relative;
+  padding-bottom: %; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+
+
+
+/* Then style the iframe to fit in the container div with full height and width */
+
+
+
+.small {
+  padding-bottom: 35% !important;
+  text-align: center;
+}
+
+.container-fluid {
+  position: relative;
+  text-align: center;
+}
+
+
+}
+
+.bbb {
+  padding-bottom: 63% !important;
+}
+
+.sml {
+  padding-bottom: 50% !important;
+  text-align: center;
+}
+
+.smll {
+  padding-bottom: 27% !important;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+hr {
+  border-top: 8px solid #9e2020;
+
+}
+iframe {
+  border-style: ridge;
+  border-width: 7px;
+  border-color: rgb(189, 179, 179);
+}
+.noborder {
+  border-style: none;
+border-width: none;
+border-color: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #42100d;
+}
+.col-md-4 .mb-0 .text-muted {
+  color:white !important;
+}
+
+h4 {
+
+  vertical-align: middle;
+  display: inline-flex;
+  text-indent: 10px;
+}
+
+li {
+  float: left;\
+  
+  color:white;
+}
+.background {
+  background-color: #111211;
+}
+
+body,
+html {
+  height: 100%;
+  
+}
+body {
+  position: relative;
+  width: 100%;
+}
+
+li a {  
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  padding: 14px 16px;  
+  color: white;
+}
+
+ul a:hover: {
+color: white;
+}
+
+  width: auto; /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+
+
+
+
+
+img {
+  width: 100%;
+}
+
+h1,
+h4 {
+  text-align: center;
+  color: white;
+}
+
+.big {
+  font-size: 40px !important;
+  font-style: underline !important;
+}
+p {
+  color: white;
+  font-size: 18px;
+}
+
+img.imagge {
+  width: 100%;
+}
+
+
+#signUp {
+  margin-top: 10px;
+  padding: 0 20px 15px 20px;
+  border: 1px solid #bbb;
+}
+#signUp legend {
+  font-size: 2em;
+  font-weight: 200;
+  padding: 0 0.2em;
+}
+#signUp label {
+  display: block;
+  padding-top: 1em;
+}
+#signUp label:first-of-type {
+  margin-top: -0.9em;
+}
+#nameLabel {
+  margin-top: -1em;
+}
+
+legend {
+text-color: white !important
+}
+
+#submit,
+#clearCookie {
+  display: block;
+  font-size: 1em;
+  color: #fff;
+  text-transform: uppercase;
+  background: rgb(197, 12, 12);
+  padding: 0.8em 1em 0.7em;
+  border: 0;
+  border-bottom: 3px solid rgb(139, 9, 9);
+  margin-top: 15px;
+}
+.textfield {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  padding: 7px;
+  background: #efefef;
+  border: 1px solid #bbb;
+  width: 97%;
+}
+.textfield:focus {
+  background: #fbf8d2;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 45%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 222px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+
+
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+}
+/* Then style the iframe to fit in the container div with full height and width */
+
+}
+.navbar-bottom {
+  min-height: 300px;
+  margin-top: 100px;
+  background-color: #28364f;
+  padding-top: 35px;
+  color:#FFFFFF;
+  }
+
+
